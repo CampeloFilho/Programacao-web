@@ -23,7 +23,7 @@
             $email =     $_POST['email'];
             $telefone =  $_POST['telefone'];
 
-            $inserir = $con -> query("INSERT INTO cad_cliente
+            $inserir = $con -> query("INSERT INTO cliente
             VALUES('0','$nome','$sobrenome','$email','$telefone')");
 
             if ($inserir) {
